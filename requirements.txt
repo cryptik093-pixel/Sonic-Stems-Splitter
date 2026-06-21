@@ -1,7 +1,12 @@
-librosa==0.10.0
-numpy==1.24.3
-scipy==1.11.1
-soundfile==0.12.1
-torch==2.0.0
-torchaudio==2.0.0
-demucs==4.0.1
+# pip requirements (updated for Python 3.11+ compatibility)
+librosa>=0.11
+numpy>=1.26
+scipy>=1.13
+soundfile>=0.13
+
+# PyTorch: it's recommended to install the appropriate wheel for your platform (see README below).
+# Keep a permissive minimum here; install CPU/GPU build first when creating the venv.
+torch>=2.0.0
+torchaudio>=2.0.0
+
+demucs>=4.0.1
