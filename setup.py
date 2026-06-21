@@ -10,13 +10,13 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
-        "librosa>=0.10.0",
-        "numpy>=1.24.0",
-        "scipy>=1.11.0",
-        "soundfile>=0.12.0",
+        "librosa>=0.11",
+        "numpy>=1.26",
+        "scipy>=1.13",
+        "soundfile>=0.13",
         "torch>=2.0.0",
         "torchaudio>=2.0.0",
-        "demucs>=4.0.0",
+        "demucs>=4.0.1",
     ],
     entry_points={
         "console_scripts": [
